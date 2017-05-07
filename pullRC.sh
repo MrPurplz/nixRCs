@@ -17,7 +17,7 @@ do
            cp "$base${rcfiles[count]}" "$base${rcfiles[count]}.bak"
        fi
        echo "Pulling from Github: $gh${rcfiles[count]}"
-       #wget $gh${rcfiles[x]}
+       wget $gh${rcfiles[x]}
        count=$(( $count + 1 ))
 done
 
