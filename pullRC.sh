@@ -1,5 +1,5 @@
 #!/bin/bash
-gh="https://github.com/MrPurplz/nixRCs/master/
+gh="https://raw.githubusercontent.com/MrPurplz/nixRCs/master/"
 base="~/"
 declare -a rcfiles=(
     '.vimrc'
