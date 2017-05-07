@@ -1,11 +1,11 @@
 #!/bin/bash
 gh="https://raw.githubusercontent.com/MrPurplz/nixRCs/master/"
 base="~/"
-declare -a rcfiles={
+rcfiles=(
     '.vimrc'
     '.tmux.conf'
     '.bashrc'
-    }
+    );
 
 count=0
 while [ "x${rcfiles[count]}" != "x" ]
